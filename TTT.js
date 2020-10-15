@@ -14,6 +14,7 @@ restart.addEventListener("click",function(){
 
 //In an event, this refers to the element that received the event.
 
+//The change function is used for changing the content of the table elements.
 function change(){
   if (this.textContent === ""){
     this.textContent = "X";
